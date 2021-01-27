@@ -2,32 +2,31 @@
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Chirpy                          # the main title
+title: Hansen Zheng                          # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 焦绿的技术宅   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  hansen zheng
+
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ''
+url: 'https://hansenz42.github.io'
 
-author: your_full_name                  # change to your full name
+author: Hansen Zheng                 # change to your full name
 
 github:
-  username: github_username             # change to your github username
+  username: hansenz42             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+#twitter:
+    #username: hansenz42 # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: Hansen Zheng # it will shows as the copyright owner in Footer
+  email: rushkiller@126.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
+    # - https://twitter.com/username      # change to your twitter homepage
     - https://github.com/username       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -45,7 +44,7 @@ baseurl: ''
 timezone: Asia/Shanghai
 
 google_analytics:
-  id: ''          # Fill with your Google Analytics ID
+  id: 'G-23ZQ5XL09Q'          # Fill with your Google Analytics ID
   pv:
     # The Google Analytics pageviews switch.
     # DO NOT enable it unless you know how to deploy the Google Analytics superProxy.
@@ -72,7 +71,7 @@ disqus:
 #
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: dark   # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -82,8 +81,8 @@ theme_mode:   # [light|dark]
 img_cdn: ''
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://cdn.jsdelivr.net/gh/cotes2020/chirpy-images/commons/avatar.jpg
-
+avatar: /assets/img/avatar.jpg
+  
 # boolean type, the global switch for ToC in posts.
 toc: true
 
