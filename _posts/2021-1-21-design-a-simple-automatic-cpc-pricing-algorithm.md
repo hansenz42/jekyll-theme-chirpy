@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 从0到1设计一个CPC自动投放系统（一）
+title: 从0到1设计一个CPC分时自动投放系统（一）
 date: 2020-1-25
 categories:
 - 知识
