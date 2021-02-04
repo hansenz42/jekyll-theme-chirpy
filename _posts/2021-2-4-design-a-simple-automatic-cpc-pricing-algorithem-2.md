@@ -119,7 +119,7 @@ $$
 
 <span id = "ref1">1. 推广通官方说明：[一图看懂美团推广通](https://mp.weixin.qq.com/s/2BE343U5VHa3q2y6AZ7EHA)</span>
 
-# 版权申明
+# 版权声明
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
