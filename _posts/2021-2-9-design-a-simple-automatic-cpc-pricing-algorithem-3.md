@@ -11,17 +11,15 @@ tags:
 typora-root-url: ../
 ---
 
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
-            }
-        });
-    </script>
-</head>
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
 # 前言
 
@@ -95,16 +93,20 @@ typora-root-url: ../
 ### 加入步长参数
 
 改进公式：
+
 $$
 P_{high} = \left\{\begin{matrix}
 0.15 \cdot (P_{t} - P_{t-1}) + P_{t-1} & , P_{t}>P_{t-1} \\ 
 P_{t} & , P_{t}\leq P_{t-1}
 \end{matrix}\right.
 $$
+
 其中
+
 $$
 P_{t} = \frac{t\cdot B \cdot \sum_{i=0}^{t-1}(P_i \cdot k_i)}{T\cdot b\cdot t} = \frac{B \cdot\sum_{i=0}^{t-1}(P_i\cdot k_i)}{T\cdot b}
 $$
+
 改进后的公式设定了一个出价提升缓冲参数 0.15，可以让算法在提升出价时缓慢提升，不会一下子提升的太高，这样就可以抑制抖动。
 
 ![经过调整后的推广通消耗，可见时段内的出价断层没有了](/assets/img/post/cpc-7.png)
