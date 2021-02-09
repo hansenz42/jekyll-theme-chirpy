@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 从0到1设计一个CPC分时自动投放系统（二）
+title: 从0到1设计一个CPC分时自动投放系统（二）：设计和算法
 date: 2020-2-4
 categories:
 - 知识
@@ -93,10 +93,10 @@ typora-root-url: ../
 所以公式为：
 
 $$
-P_{high} = \frac{t\cdot B \cdot \sum_{i=0}^{t}(P_i \cdot k_i)}{T\cdot b\cdot t} = \frac{B \cdot\sum_{i=0}^{t}(P_i\cdot k_i)}{T\cdot b}
+P_{high} = \frac{t\cdot B \cdot \sum_{i=0}^{t-1}(P_i \cdot k_i)}{T\cdot b\cdot t} = \frac{B \cdot\sum_{i=0}^{t-1}(P_i\cdot k_i)}{T\cdot b}
 $$
 
-其中累加量 $\frac{\sum_{i=0}^{t}(P_i \cdot k_i)}{t}$ 为当前时段内的已投放时间内出价均值。
+其中累加量 $\frac{\sum_{i=0}^{t-1}(P_i \cdot k_i)}{t}$ 为当前时段内的已投放时间内出价均值。
 
 简单来说，这个公式的作用就是把之前投放的价格做个均值，根据剩余时间和剩余预算的比值，来调整这次的出价。
 
