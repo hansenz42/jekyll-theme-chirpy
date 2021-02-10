@@ -3,7 +3,7 @@ layout: post
 title: 从0到1设计一个CPC分时自动投放系统（二）：设计和算法
 date: 2020-2-4
 categories:
-- 知识
+- 技术笔记
 tags:
 - CPC
 - 推广通
@@ -122,5 +122,5 @@ $$
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
-本作品采用<a rel="license" href="http://creativecommons.org/licenses/by/4.0/">知识共享署名 4.0 国际许可协议</a>进行许可。
+本作品采用[知识共享署名 4.0 国际许可协议](http://creativecommons.org/licenses/by/4.0/)进行许可。
 
