@@ -3,7 +3,7 @@ layout: post
 title: 从0到1设计一个CPC分时自动投放系统（一）：问题和背景
 date: 2020-1-25
 categories:
-- 技术笔记
+- 产品笔记
 tags:
 - CPC
 - 推广通
@@ -31,7 +31,7 @@ typora-root-url: ../
 
 ![baidu-ad-pic](/assets/img/post/cpc-1.png)
 
-<center>百度搜索结果中的广告位</center>
+<center><font color=gray>百度搜索结果中的广告位</font></center>
 
 对于用户来说，可能这只是一个小小标签。但是对于搜索引擎来说，这就是**广告位**，也是广告平台赖以生存的收入来源。
 
@@ -57,7 +57,7 @@ typora-root-url: ../
 
 ![dianping-ad](/assets/img/post/cpc-2.jpeg)
 
-<center>大众点评搜索“日料”的结果，圈出部分显示“广告”二字，说明这是一条广告</center>
+<center><font color=gray>大众点评搜索“日料”的结果，圈出部分显示“广告”二字，说明这是一条广告</font></center>
 
 ### 其他各种广告
 

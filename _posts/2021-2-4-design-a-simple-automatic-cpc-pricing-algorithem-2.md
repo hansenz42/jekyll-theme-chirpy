@@ -3,7 +3,7 @@ layout: post
 title: 从0到1设计一个CPC分时自动投放系统（二）：设计和算法
 date: 2020-2-4
 categories:
-- 技术笔记
+- 产品笔记
 tags:
 - CPC
 - 推广通
