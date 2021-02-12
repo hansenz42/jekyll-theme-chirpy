@@ -11,16 +11,6 @@ tags:
 typora-root-url: ../
 ---
 
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-      }
-    });
-  </script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
-
 # 前言
 
 上篇文章我们设计了一个简单的算法，并分析了的边界条件和边界情况。这篇文章，我们将评估推广通自动投放算法使用前和使用后的效果，看看实际情况是怎么样的。
