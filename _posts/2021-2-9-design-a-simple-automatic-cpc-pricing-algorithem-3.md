@@ -8,6 +8,7 @@ tags:
 - CPC
 - 推广通
 - 广告
+pin: true
 typora-root-url: ../
 ---
 
