@@ -91,4 +91,4 @@ MathJax = {
 
 <span id="ref1">1.[Mathjax inline mode not rendering - TeX - LaTeX Stack Exchange](https://tex.stackexchange.com/questions/27633/mathjax-inline-mode-not-rendering)</span>
 
-<span id="ref2">2.一个GitHub大神对将MathJax集成到Jekyll的建议，注意是MathJax v2https://github.com/github/pages-gem/issues/307#issuecomment-289536076</span>
+<span id="ref2">2.一个GitHub大神对将MathJax集成到Jekyll的建议，注意是MathJax v2 https://github.com/github/pages-gem/issues/307#issuecomment-289536076</span>
