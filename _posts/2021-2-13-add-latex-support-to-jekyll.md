@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 让GitHub Pages支持数学公式（MathJax v3）
+title: 让 Jekyll 支持LaTex数学公式（MathJax v3）
 date: 2021-2-13
 categories:
 - 技术笔记
