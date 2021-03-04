@@ -11,7 +11,7 @@ typora-root-url: ../
 ---
 
 # Karabiner-Elements
-[Karabiner-Elements]([How to map 1 key to simulate holding down multiple keys? · Issue #1637 · pqrs-org/Karabiner-Elements (github.com)](https://github.com/pqrs-org/Karabiner-Elements/issues/1637))是MacOS平台上的一个可自定义键盘按键的软件，开源免费。可以随心所欲地修改键盘，例如：
+[Karabiner-Elements](https://github.com/pqrs-org/Karabiner-Elements)是MacOS平台上的一个可自定义键盘按键的软件，开源免费。可以随心所欲地修改键盘，例如：
 
 - 映射按键：可以`capslock`键修改成`ctrl`（我就是这么做的）
 - 配置长按和短按的功能：长按`c`映射为`cmd+c`，就可以一键复制
